@@ -2,11 +2,11 @@
 
 
 
-# Get-AzVirtualNetworkPeering -VirtualNetworkName "pd-aue-net-vnet" -ResourceGroupName "networking-pd-aue-rg"
+# Get-AzVirtualNetworkPeering -VirtualNetworkName " " -ResourceGroupName " "
 
 
 
-# Get-AzRouteTable -ResourceGroupName "networking-pd-aue-rg" -Name "orcafdut-aue-net-rtb01" | Get-AzRouteConfig
+# Get-AzRouteTable -ResourceGroupName " " -Name " " | Get-AzRouteConfig
 
 
 
