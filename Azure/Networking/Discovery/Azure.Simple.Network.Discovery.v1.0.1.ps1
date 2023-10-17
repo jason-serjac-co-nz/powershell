@@ -191,9 +191,29 @@ try {
     
                         $RouteTable = ($jsonSubnets.RouteTable.Id -split '\/')[-1]
 
-                        Write-Host "Route Table Name:"  $RouteTable
+                        Write-Host " HUB vNet Route Table Name:"  $RouteTable
 
-                        # If vNet peerings found List them out
+                        Write-Host "-------------------------------------------------------------------------------"
+                        Write-Host " All subscriptions - route tables & associated routes"                        Write-Host "-------------------------------------------------------------------------------"
+                         
+                         # Subnet Route Table Names
+
+
+
+
+
+                         # Routes p
+
+
+
+
+
+
+
+                        Write-Host "-------------------------------------------------------------------------------"
+                        Write-Host " All subscriptions - vNet Peerings"                        Write-Host "-------------------------------------------------------------------------------"
+
+
                     
                         if ($vNet.VirtualNetworkPeerings -eq $null) {
 
